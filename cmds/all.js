@@ -3,8 +3,8 @@
  * Order: 100
  */
 
-javascript: (function () {
-  let textToInject = '$0';
+(function () {
+  let query = '$0';
 
   let findAndClick = (root) => {
     let e = root.querySelector('[aria-label="All"]');
@@ -29,7 +29,7 @@ javascript: (function () {
     let input = root.querySelector('input[placeholder="Filter"]');
     if (input) {
       input.focus();
-      input.value = textToInject;
+      input.value = query;
       input.dispatchEvent(new Event('input', { bubbles: true }));
       return true;
     }

@@ -1,10 +1,11 @@
-# sn-utils-slash-cmds
+# slash-commands
 
-Got annoyed the All menu shortcut didn't work on Firefox.
+A collection of useful SN Utils Slash Commands.
 
 ## Setup
 
 1. Make sure you have the [SN Utils extension](https://snutils.com) installed.
 2. Navigate to a Service Now instance browser window (may require a refresh).
-3. Open the plugin and navigate to the Settings tab.
-4. Go to the Slash Commands section, open the editor by double-clicking and copy/paste the contents of `export.json`.
+3. Open the plugin open Settings.
+4. Navigate to the Commands tab, click 'New Command' and fill out the relevant fields with the corresponding `cmds/cmd.js` command.
+5. Paste the script into the Script tab on the action pane and save the command.

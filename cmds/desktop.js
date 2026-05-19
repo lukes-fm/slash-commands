@@ -3,4 +3,6 @@
  * Order: 100
  */
 
-/navpage.do?sysparm_device=doctype
+(function () {
+  window.location.href = '/navpage.do?sysparm_device=doctype';
+})();
