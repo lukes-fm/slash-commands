@@ -1,0 +1,18 @@
+{
+    "name": "slash-commands",
+    "version": "1.0.0",
+    "description": "Useful SN Utils Slash Commands",
+    "homepage": "https://github.com/lukes-fm/sn-utils-slash-cmds#readme",
+    "bugs": {
+        "url": "https://github.com/lukes-fm/sn-utils-slash-cmds/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lukes-fm/sn-utils-slash-cmds.git"
+    },
+    "license": "ISC",
+    "author": "Luke Sullivan",
+    "devDependencies": {
+        "prettier": "^3.8.3"
+    }
+}

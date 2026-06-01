@@ -4,5 +4,5 @@
  */
 
 (function () {
-  window.location.href = '/stats.do';
+    window.location.href = '/stats.do';
 })();

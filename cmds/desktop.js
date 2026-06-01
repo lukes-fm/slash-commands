@@ -4,5 +4,5 @@
  */
 
 (function () {
-  window.location.href = '/navpage.do?sysparm_device=doctype';
+    window.location.href = '/navpage.do?sysparm_device=doctype';
 })();
