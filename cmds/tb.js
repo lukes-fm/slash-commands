@@ -1,10 +1,17 @@
 /**
- * Hint: Open table in new tab <table_name> (keep Unified Navigation Header in view)
+ * Hint: Open table in new tab <table name> (keep header menu visible)
  * Order: 100
  */
 
 (function () {
     const table = '$0';
 
-    window.open(`/now/nav/ui/classic/params/target/${table}_list.do`, '_blank');
+    if (table) {
+        window.open(
+            `/now/nav/ui/classic/params/target/${table}_list.do`,
+            '_blank'
+        );
+    } else {
+        alert('tb: Missing table name from slash command');
+    }
 })();
