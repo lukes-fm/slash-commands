@@ -4,10 +4,10 @@
  */
 
 (function () {
-    let query = '$0';
+    const query = '$0';
 
-    let findAndClick = (root) => {
-        let e = root.querySelector('[aria-label="All"]');
+    const findAndClick = (root) => {
+        const e = root.querySelector('[aria-label="All"]');
         if (e) {
             e.click();
             setTimeout(() => {
@@ -16,8 +16,8 @@
             return true;
         }
 
-        let nodes = root.querySelectorAll('*');
-        for (let n of nodes) {
+        const nodes = root.querySelectorAll('*');
+        for (const n of nodes) {
             if (n.shadowRoot) {
                 if (findAndClick(n.shadowRoot)) return true;
             }
@@ -25,8 +25,8 @@
         return false;
     };
 
-    let findAndType = (root) => {
-        let input = root.querySelector('input[placeholder="Filter"]');
+    const findAndType = (root) => {
+        const input = root.querySelector('input[placeholder="Filter"]');
         if (input) {
             input.focus();
             input.value = query;
@@ -34,8 +34,8 @@
             return true;
         }
 
-        let nodes = root.querySelectorAll('*');
-        for (let n of nodes) {
+        const nodes = root.querySelectorAll('*');
+        for (const n of nodes) {
             if (n.shadowRoot) {
                 if (findAndType(n.shadowRoot)) return true;
             }
