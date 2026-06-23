@@ -1,5 +1,5 @@
 /**
- * Hint: Open My Company Applications
+ * Hint: Open My Company Applications <new tab>
  * Order: 100
  */
 
