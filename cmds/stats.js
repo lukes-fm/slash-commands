@@ -1,6 +1,5 @@
 /**
  * Hint: View instance stats
- * Order: 100
  */
 
 (function () {

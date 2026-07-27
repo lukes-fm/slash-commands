@@ -1,6 +1,5 @@
 /**
  * Hint: Open table in new tab <table name> (keep header menu visible)
- * Order: 100
  */
 
 (function () {

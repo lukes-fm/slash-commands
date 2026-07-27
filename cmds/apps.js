@@ -1,6 +1,5 @@
 /**
  * Hint: Open My Company Applications <new tab>
- * Order: 100
  */
 
 (function () {

@@ -1,6 +1,5 @@
 /**
  * Hint: Open All menu <search>
- * Order: 100
  */
 
 (function () {

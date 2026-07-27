@@ -1,6 +1,5 @@
 /**
  * Hint: Open instance in desktop mode
- * Order: 100
  */
 
 (function () {
