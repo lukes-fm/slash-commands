@@ -1,6 +1,5 @@
 /**
- * Hint Open Page Route Maps (new tab)
- * Order: 100
+ * Hint Open Page Route Maps <new tab>
  */
 
 (function () {

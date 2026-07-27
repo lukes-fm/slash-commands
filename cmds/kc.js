@@ -1,6 +1,5 @@
 /**
  * Hint: Open Knowledge Center <new tab>
- * Order: 100
  */
 
 (function () {
