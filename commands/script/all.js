@@ -1,6 +1,4 @@
-/**
- * Hint: Open All menu <search>
- */
+// Open All menu <search>
 
 (function () {
     const query = '$0';

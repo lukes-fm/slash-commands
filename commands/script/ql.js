@@ -1,6 +1,4 @@
-/**
- * Hint: Open Quick Links <new tab>
- */
+// Open Quick Links <new tab>
 
 (function () {
     const isNewTab = '$0' === 'tab' || '$0' === 't';

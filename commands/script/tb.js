@@ -1,6 +1,5 @@
-/**
- * Hint: Open table in new tab <table name> (keep header menu visible)
- */
+// Open table in new tab <table name>
+// NOTE: Minor improvement on  `tab [table name]_list`
 
 (function () {
     const table = '$0';
