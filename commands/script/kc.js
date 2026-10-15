@@ -1,6 +1,4 @@
-/**
- * Hint: Open Knowledge Center <new tab>
- */
+// Open Knowledge Center <new tab>
 
 (function () {
     const isNewTab = '$0' === 'tab' || '$0' === 't';
