@@ -1,4 +1,4 @@
-// Hint Open Page Route Maps <new tab>
+// Open Page Route Maps <new tab>
 
 (function () {
     const isNewTab = '$0' === 'tab' || '$0' === 't';

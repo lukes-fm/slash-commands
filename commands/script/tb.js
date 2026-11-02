@@ -1,5 +1,5 @@
 // Open table in new tab <table name>
-// NOTE: Minor improvement on  `tab [table name]_list`
+// Minor improvement on `tab [table name]_list`
 
 (function () {
     const table = '$0';
